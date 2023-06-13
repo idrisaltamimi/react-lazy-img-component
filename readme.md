@@ -23,26 +23,26 @@ npm install react-image-loader-component
 
 ```jsx
 import React from "react"
-import ImageLoader from "react-image-loader-component"
+import ImageComponent from "react-image-loader-component"
 
 const App = () => {
   return (
-    <div>
-      <Image
+    <>
+      <ImageComponent
         src={img1}
         placeholderSrc={img1Small}
         imageClass="img"
         loader="spinner"
         alt="a topical beach with a lot of palm trees with beautiful sea water"
       />
-      <Image
+      <ImageComponent
         src={img2}
         placeholderSrc={img2Small}
         imageClass="img"
         loader="pulse"
         alt="a pinkish water with a big beautiful boulder in the middle that has a few small trees on the top of it"
       />
-    </div>
+    </>
   )
 }
 
