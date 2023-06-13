@@ -1,10 +1,17 @@
 {
-  "name": "react-lazy-img-loader",
+  "name": "react-lazy-img-component",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The React Image Loader Component is a versatile and customizable image loading component for React applications. It provides an elegant way to handle image loading states, such as showing placeholders or loading spinners while the image is being fetched from a server.",
+  "main": "src/index.ts",
+  "files": [
+    "src/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idrisaltamimi/react-lazy-img-component.git"
   },
   "keywords": [
     "react-lazy",
@@ -16,5 +23,12 @@
     "react-lazy-load-image"
   ],
   "author": "Idris AlTamimi",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idrisaltamimi/react-lazy-img-component/issues"
+  },
+  "homepage": "https://github.com/idrisaltamimi/react-lazy-img-component#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2"
+  }
 }
