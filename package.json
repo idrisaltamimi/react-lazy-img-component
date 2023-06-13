@@ -1,6 +1,6 @@
 {
   "name": "react-lazy-image-component-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The React Image Loader Component is a versatile and customizable image loading component for React applications. It provides an elegant way to handle image loading states, such as showing placeholders or loading spinners while the image is being fetched from a server.",
   "main": "src/index.ts",
   "files": [
