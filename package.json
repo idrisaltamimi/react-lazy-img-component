@@ -1,0 +1,20 @@
+{
+  "name": "react-lazy-img-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-lazy",
+    "lazy-load",
+    "image-lazy",
+    "loazy-load-images",
+    "lazy-load-img",
+    "img-load",
+    "react-lazy-load-image"
+  ],
+  "author": "Idris AlTamimi",
+  "license": "ISC"
+}
