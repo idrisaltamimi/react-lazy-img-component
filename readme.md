@@ -5,8 +5,7 @@ The React Image Loader Component is a versatile and customizable image loading c
 ## Key Features
 
 - Easy integration: Simply import the component and use it in your React application.
-- Loading state management: Display placeholders or loading spinners while images are being loaded.
-- Error handling: Show custom error messages or fallback images when image loading fails.
+- Loading state management: loading spinners while images are being loaded.
 - Customizable styling: Easily customize the appearance of the image loader component to match your application's design.
 
 ## Installation
@@ -19,7 +18,8 @@ npm install react-image-loader-component
 
 ## Usage
 
-Import the component and use it in your React application like this:
+- You will need twi images original image and small image as a placeholder. For better performance the small image should be less than 4kb
+- Import the component and use it in your React application like this:
 
 ```jsx
 import React from "react"
@@ -40,7 +40,7 @@ const App = () => {
         placeholderSrc={img2Small}
         imageClass="img"
         loader="pulse"
-        alt="a pinkish water with a big beautiful boulder in the middle that has a few small trees"
+        alt="a pinkish water with a big beautiful boulder in the middle that has a few small trees on the top of it"
       />
     </div>
   )
