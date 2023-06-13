@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import "./Image.css"
+import "./ImageComponent.css"
 
 type ImageProps = {
   src: string
