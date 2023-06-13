@@ -13,7 +13,7 @@ The React Image Loader Component is a versatile and customizable image loading c
 You can install the React Image Loader Component using npm:
 
 ```
-npm install react-image-loader-component
+npm install react-lazy-image-component-loader
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ npm install react-image-loader-component
 
 ```jsx
 import React from "react"
-import ImageComponent from "react-image-loader-component"
+import ImageComponent from "react-lazy-image-component-loader"
 
 const App = () => {
   return (
