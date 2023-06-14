@@ -27,9 +27,10 @@ export default function ImageComponent({
   }
   return (
     <div
-      className={`image-loader-wrapper-class ${className} ${
-        loader === "pulse" ? "pulse-loader-class" : "spinner-loader-class"
-      }`}
+      className={`image-loader-wrapper-class ${className}
+       ${loader === "pulse" ? "pulse-loader-class" : ""}
+       ${loader === "spinner" ? "spinner-loader-class" : ""}
+      `}
       data-image-loaded={imageLoaded}
     >
       <img
