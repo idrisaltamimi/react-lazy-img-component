@@ -14,10 +14,19 @@
   filter: blur(12px);
   transform: scale(1.01);
   z-index: 1;
+  transition: opacity 300ms ease-in;
 }
 
 .image-small-element-class[data-image-loaded="true"] {
   pointer-events: none;
+  opacity: 0;
+  animation: hideSmallImage 100ms linear 300ms forwards;
+}
+
+@keyframes hideSmallImage {
+  to {
+    display: none;
+  }
 }
 
 /* the image */
@@ -29,7 +38,7 @@
   width: 100%;
   opacity: 0;
 
-  transition: opacity 1000ms ease-in;
+  transition: opacity 300ms ease-in;
 }
 
 .image-element-class[data-image-loaded="true"] {
